@@ -15,7 +15,7 @@ class Tunnel extends Thread
     Semaphore sem;
 
     int num = 0;
-    // условный номер философа
+    // номер тоннеля
     int id;
     // в качестве параметров конструктора передаем идентификатор тоннеля и семафор
     Tunnel(Semaphore sem, int id)
